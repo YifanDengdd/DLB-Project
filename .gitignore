@@ -1,41 +1,5 @@
-###
-# Unity folders and files
-###
-[Aa]ssets/AssetStoreTools*
-[Bb]uild/
-[Ll]ibrary/
-[Ll]ocal[Cc]ache/
-[Oo]bj/
-[Tt]emp/
-[Uu]nityGenerated/
-# file on crash reports
-sysinfo.txt
-# Unity3D generated meta files
-*.pidb.meta
 
-###
-# VS/MD solution and project files
-###
-[Ee]xportedObj/
-*.booproj
-*.csproj
-*.sln
-*.suo
-*.svd
-*.unityproj
-*.user
-*.userprefs
-*.pidb
-.DS_Store
-
-###
-# OS generated
-###
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
+DLB_ProjectZ/Library/SceneVisibilityState.asset
+DLB_ProjectZ/Library/StateCache/MainStageHierarchy/73/730472f600adb22a1fb232c23205c5a5.json
+DLB_ProjectZ/Library/StateCache/MainStageHierarchy/73/730472f600adb22a1fb232c23205c5a5.json
+DLB_ProjectZ/Library/SceneVisibilityState.asset
