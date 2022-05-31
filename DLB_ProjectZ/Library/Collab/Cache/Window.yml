@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Materials.meta
+    - Assets/Materials/Ground.mat
+    - Assets/Materials/Ground.mat.meta
+    - Assets/Materials/Highlight.mat
+    - Assets/Materials/Highlight.mat.meta
+    - Assets/Materials/VertexColors.mat
+    - Assets/Materials/VertexColors.mat.meta
+    - Assets/Materials/VertexColors.shader
+    - Assets/Materials/VertexColors.shader.meta
+    - Assets/Models.meta
+    - Assets/Models/Map.meta
+    - Assets/Models/Map/hexagon.fbx
+    - Assets/Models/Map/hexagon.fbx.meta
+    - Assets/Prefab.meta
+    - Assets/Prefab/Hex Cell Label.prefab
+    - Assets/Prefab/Hex Cell Label.prefab.meta
+    - Assets/Prefab/Hex Cell.prefab
+    - Assets/Prefab/Hex Cell.prefab.meta
+    - Assets/Prefab/OldHexagon.meta
+    - Assets/Prefab/OldHexagon/hexagon.prefab
+    - Assets/Prefab/OldHexagon/hexagon.prefab.meta
+    - Assets/Resources.meta
+    - Assets/Resources/TerrainMaterial.meta
+    - Assets/Resources/TerrainMaterial/dirt01.mat
+    - Assets/Resources/TerrainMaterial/dirt01.mat.meta
+    - Assets/Resources/TerrainMaterial/grass01.mat
+    - Assets/Resources/TerrainMaterial/grass01.mat.meta
+    - Assets/Resources/TerrainMaterial/tree_branches.mat
+    - Assets/Resources/TerrainMaterial/tree_branches.mat.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/HexMap.unity
+    - Assets/Scenes/HexMap.unity.meta
+    - Assets/Scenes/Main Menu.unity
+    - Assets/Scenes/Main Menu.unity.meta
+    - Assets/Scenes/OldHexagon.unity
+    - Assets/Scenes/OldHexagon.unity.meta
+    - Assets/Scenes/Prologue0.unity
+    - Assets/Scenes/Prologue0.unity.meta
+    - Assets/Scenes/Prologue1.unity
+    - Assets/Scenes/Prologue1.unity.meta
+    - Assets/Scenes/Prologue2.unity
+    - Assets/Scenes/Prologue2.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/DialogueSystem.meta
+    - Assets/Scripts/DialogueSystem/Dialogue.cs
+    - Assets/Scripts/DialogueSystem/Dialogue.cs.meta
+    - Assets/Scripts/DialogueSystem/DialogueManager.cs
+    - Assets/Scripts/DialogueSystem/DialogueManager.cs.meta
+    - Assets/Scripts/DialogueSystem/DialogueTrigger.cs
+    - Assets/Scripts/DialogueSystem/DialogueTrigger.cs.meta
+    - Assets/Scripts/HexTech.meta
+    - Assets/Scripts/HexTech/HexCell.cs
+    - Assets/Scripts/HexTech/HexCell.cs.meta
+    - Assets/Scripts/HexTech/HexCoordinates.cs
+    - Assets/Scripts/HexTech/HexCoordinates.cs.meta
+    - Assets/Scripts/HexTech/HexCoordinatesDrawer.cs
+    - Assets/Scripts/HexTech/HexCoordinatesDrawer.cs.meta
+    - Assets/Scripts/HexTech/HexGrid.cs
+    - Assets/Scripts/HexTech/HexGrid.cs.meta
+    - Assets/Scripts/HexTech/HexMesh.cs
+    - Assets/Scripts/HexTech/HexMesh.cs.meta
+    - Assets/Scripts/HexTech/HexMetrics.cs
+    - Assets/Scripts/HexTech/HexMetrics.cs.meta
+    - Assets/Scripts/HexTech/MapEditor.meta
+    - Assets/Scripts/HexTech/MapEditor/HexMapEditor.cs
+    - Assets/Scripts/HexTech/MapEditor/HexMapEditor.cs.meta
+    - Assets/Scripts/OldHexagon.meta
+    - Assets/Scripts/OldHexagon/Grid.cs
+    - Assets/Scripts/OldHexagon/Grid.cs.meta
+    - Assets/Scripts/OldHexagon/Hexagon.cs
+    - Assets/Scripts/OldHexagon/Hexagon.cs.meta
+    - Assets/Scripts/manager.cs
+    - Assets/Scripts/manager.cs.meta
+    - Assets/Sprites.meta
+    - Assets/Sprites/Jiba.jpg
+    - Assets/Sprites/Jiba.jpg.meta
+    - Assets/Sprites/Trial.jpg
+    - Assets/Sprites/Trial.jpg.meta
+    - Assets/StreamingAssets.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/MemorySettings.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
