@@ -74,10 +74,13 @@ sysinfo.txt
 crashlytics-build.properties
 
 # Packed Addressables
-/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+DLB_ProjectZ/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
-/[Aa]ssets/[Ss]treamingAssets/aa.meta
-/[Aa]ssets/[Ss]treamingAssets/aa/*
-DLB_ProjectZ/.plastic/plastic.wktree
+DLB_ProjectZ/[Aa]ssets/[Ss]treamingAssets/aa.meta
+DLB_ProjectZ/[Aa]ssets/[Ss]treamingAssets/aa/*
 DLB_ProjectZ/Library/SceneVisibilityState.asset
+DLB_ProjectZ/Library/SourceAssetDB
+DLB_ProjectZ/Library/StateCache/MainStageHierarchy/73/730472f600adb22a1fb232c23205c5a5.json
+DLB_ProjectZ/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+DLB_ProjectZ/UserSettings/Layouts/default-2021.dwlt
